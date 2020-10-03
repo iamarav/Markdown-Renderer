@@ -1,0 +1,42 @@
+.App{ 
+  padding-top: 10px;
+}
+
+.full-screen {
+  height: 80vh !important;
+}
+
+.vertical-line {
+  border-left: 0.5px solid black;
+}
+
+.input-textarea{
+  border-radius: 0;
+  border-bottom-right-radius: 5px;
+}
+
+
+/* Scrollbar */
+
+/* width */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 4px grey; 
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: gray; 
+}
